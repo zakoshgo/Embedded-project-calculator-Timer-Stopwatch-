@@ -1,0 +1,17 @@
+D:\0.semester\ 7\2.embedded\project\seif\Debug\BrowseInfo\blink.pbi: \
+  D:\0.semester\ 7\2.embedded\project\seif\blink.c \
+  E:\programs\iar\arm\inc\c\stdint.h E:\programs\iar\arm\inc\c\ycheck.h \
+  E:\programs\iar\arm\inc\c\yvals.h \
+  E:\programs\iar\arm\inc\c\DLib_Defaults.h \
+  E:\programs\iar\arm\inc\c\DLib_Config_Normal.h \
+  E:\programs\iar\arm\inc\c\DLib_Product.h \
+  E:\programs\iar\arm\inc\c\stdbool.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\debug.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h \
+  D:\0.semester\ 7\2.embedded\project\seif\types.h \
+  D:\0.semester\ 7\2.embedded\project\seif\tm4c123gh6pm.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\systick.h \
+  D:\0.semester\ 7\2.embedded\project\seif\DIO.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\timer.h

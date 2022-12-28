@@ -1,0 +1,5 @@
+D:\Downloads\project\Debug\BrowseInfo\startup_ewarm.pbi: \
+  D:\Downloads\project\startup_ewarm.c D:\arm\inc\c\stdint.h \
+  D:\arm\inc\c\ycheck.h D:\arm\inc\c\yvals.h \
+  D:\arm\inc\c\DLib_Defaults.h D:\arm\inc\c\DLib_Config_Normal.h \
+  D:\arm\inc\c\DLib_Product.h

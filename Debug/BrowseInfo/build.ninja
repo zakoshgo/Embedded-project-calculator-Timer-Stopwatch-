@@ -1,0 +1,130 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = D$:\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++D$:\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = D$:\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++D$:\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = D$:\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++D$:\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = D$:\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++D$:\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\Downloads\project\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\DIO.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\DIO.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\DIO.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\DIO.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\DIO.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\Keypad.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\Keypad.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\Keypad.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\Keypad.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\Keypad.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\Keypad.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\Keypad.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\LCD.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\LCD.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\LCD.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\LCD.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\LCD.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\LCD.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\LCD.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\main.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\main.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\main.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\main.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\main.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\startup_ewarm.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\startup_ewarm.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\Systic_timer.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\Systic_timer.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\Task2_timer0_Timer.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\Task2_timer0_Timer.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\Task3_timer0_Timer.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\Task3_timer0_Timer.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\tasks.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\Downloads\project\tasks.c -xcl_file D$:\Downloads\project\Debug\BrowseInfo\tasks.xcl -macro_file D$:\Downloads\project\Debug\BrowseInfo\tasks.tmp -icc_path D$:\arm\bin\iccarm.exe
+  flags = D$:\Downloads\project\tasks.c -D ewarm -D PART_TM4C123GH6PM -D TARGET_IS_TM4C123_RB1 -o D$:\Downloads\project\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config D$:\arm\inc\c\DLib_Config_Normal.h -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros D$:\Downloads\project\Debug\BrowseInfo\tasks.tmp
+  rspfile_name = D$:\Downloads\project\Debug\BrowseInfo\tasks.xcl.rsp
+
+build D$:\Downloads\project\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\DIO.xcl |  $
+D$:\Downloads\project\DIO.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\DIO.pbi -f D$:\Downloads\project\Debug\BrowseInfo\DIO.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\Keypad.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\Keypad.xcl |  $
+D$:\Downloads\project\Keypad.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\Keypad.pbi -f D$:\Downloads\project\Debug\BrowseInfo\Keypad.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\LCD.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\LCD.xcl |  $
+D$:\Downloads\project\LCD.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\LCD.pbi -f D$:\Downloads\project\Debug\BrowseInfo\LCD.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\main.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\main.xcl |  $
+D$:\Downloads\project\main.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\main.pbi -f D$:\Downloads\project\Debug\BrowseInfo\main.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.xcl |  $
+D$:\Downloads\project\startup_ewarm.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.pbi -f D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.xcl |  $
+D$:\Downloads\project\Systic_timer.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.pbi -f D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.xcl |  $
+D$:\Downloads\project\Task2_timer0_Timer.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.pbi -f D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.xcl |  $
+D$:\Downloads\project\Task3_timer0_Timer.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.pbi -f D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\tasks.pbi : INDEXER D$:\Downloads\project\Debug\BrowseInfo\tasks.xcl |  $
+D$:\Downloads\project\tasks.c
+  flags = -out=D$:\Downloads\project\Debug\BrowseInfo\tasks.pbi -f D$:\Downloads\project\Debug\BrowseInfo\tasks.xcl
+
+build D$:\Downloads\project\Debug\BrowseInfo\Project.pbw : MAKEBROWSE D$:\Downloads\project\Debug\BrowseInfo\Project.pbd
+  flags = D$:\Downloads\project\Debug\BrowseInfo\Project.pbd -output D$:\Downloads\project\Debug\BrowseInfo\Project.pbw
+
+build D$:\Downloads\project\Debug\BrowseInfo\Project_part0.pbi : PDBLINK D$:\Downloads\project\Debug\BrowseInfo\DIO.pbi |  $
+D$:\Downloads\project\Debug\BrowseInfo\Keypad.pbi $
+D$:\Downloads\project\Debug\BrowseInfo\LCD.pbi
+  flags = -M D$:\Downloads\project\Debug\BrowseInfo\Project_part0.pbi D$:\Downloads\project\Debug\BrowseInfo\DIO.pbi D$:\Downloads\project\Debug\BrowseInfo\Keypad.pbi D$:\Downloads\project\Debug\BrowseInfo\LCD.pbi
+
+build D$:\Downloads\project\Debug\BrowseInfo\Project_part1.pbi : PDBLINK D$:\Downloads\project\Debug\BrowseInfo\main.pbi |  $
+D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.pbi $
+D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.pbi
+  flags = -M D$:\Downloads\project\Debug\BrowseInfo\Project_part1.pbi D$:\Downloads\project\Debug\BrowseInfo\main.pbi D$:\Downloads\project\Debug\BrowseInfo\startup_ewarm.pbi D$:\Downloads\project\Debug\BrowseInfo\Systic_timer.pbi
+
+build D$:\Downloads\project\Debug\BrowseInfo\Project_part2.pbi : PDBLINK D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.pbi |  $
+D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.pbi $
+D$:\Downloads\project\Debug\BrowseInfo\tasks.pbi
+  flags = -M D$:\Downloads\project\Debug\BrowseInfo\Project_part2.pbi D$:\Downloads\project\Debug\BrowseInfo\Task2_timer0_Timer.pbi D$:\Downloads\project\Debug\BrowseInfo\Task3_timer0_Timer.pbi D$:\Downloads\project\Debug\BrowseInfo\tasks.pbi
+
+build D$:\Downloads\project\Debug\BrowseInfo\Project.pbd : PDBLINK D$:\Downloads\project\Debug\BrowseInfo\Project_part0.pbi |  $
+D$:\Downloads\project\Debug\BrowseInfo\Project_part1.pbi $
+D$:\Downloads\project\Debug\BrowseInfo\Project_part2.pbi
+  flags = -M D$:\Downloads\project\Debug\BrowseInfo\Project.pbd D$:\Downloads\project\Debug\BrowseInfo\Project_part0.pbi D$:\Downloads\project\Debug\BrowseInfo\Project_part1.pbi D$:\Downloads\project\Debug\BrowseInfo\Project_part2.pbi
+

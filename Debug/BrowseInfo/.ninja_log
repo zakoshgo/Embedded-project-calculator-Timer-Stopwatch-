@@ -1,0 +1,183 @@
+# ninja log v5
+3	230	6930576183346168	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/main.pbi	252536df997c4d78
+731	965	6930591566864479	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+2589	3492	6930560950000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/main.xcl	2f64cbe86c43d1bf
+703	2295	6930560940000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/LCD.xcl	de1b8fcc231bcedb
+2300	3383	6930560950000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/tasks.xcl	a4055824b6192088
+452	726	6930591564521322	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+3896	4279	6930560962845080	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/LCD.pbi	2ec5a7dede0ac331
+539	2134	6930560940000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.xcl	fc2f3f81572bbf4e
+187	2583	6930560940000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/DIO.xcl	c30d9fa6e7521754
+3387	3891	6930560959346166	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/tasks.pbi	c2021d48fa146458
+2	275	6930569051971670	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.pbi	b27426f0c991611e
+3050	3671	6930560956650019	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/DIO.pbi	ec087b7614f0acc0
+277	555	6930569054868039	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+234	435	6930576185358671	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	851f7c0a62e9d4f3
+969	4448	6930591581520534	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+849	2449	6930560940000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Systic_timer.xcl	d8f47f7bf0c13726
+2457	3045	6930560950000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.xcl	a761b28019cdd9d6
+2726	3628	6930560950000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/startup_ewarm.xcl	5c4a3b1a9cda93ca
+3645	4120	6930560959790813	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/startup_ewarm.pbi	6962609c681f8655
+3673	4124	6930560961944907	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Systic_timer.pbi	7b55a5baf0678372
+3	449	6930591561701713	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+2	193	6930592722604012	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+195	325	6930592723445958	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+327	633	6930592725885658	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+638	4182	6930592743756869	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+4	260	6930592931423184	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/main.pbi	252536df997c4d78
+264	473	6930592933570237	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	851f7c0a62e9d4f3
+477	697	6930592935819730	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+701	3888	6930592951778059	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	263	6930593397037555	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/main.pbi	252536df997c4d78
+266	448	6930593398877453	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	851f7c0a62e9d4f3
+453	663	6930593400916317	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+668	3832	6930593415717839	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	269	6930593703398757	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/main.pbi	252536df997c4d78
+271	393	6930593704366316	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	851f7c0a62e9d4f3
+396	541	6930593705569306	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+3	3374	6930593787187931	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	324	6930600518214780	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+328	502	6930600519991568	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+506	737	6930600522317535	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+742	3844	6930600537949252	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+260	505	6930601074753767	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	381bfe04cfbe2607
+397	654	6930601076462751	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+3	777	6930601070000000	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/blink.xcl	a4e58ee9c8a64d98
+657	888	6930601078672286	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	79ecca41958aaf4c
+783	1012	6930601080028540	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/blink.pbi	3e9eddc137337a10
+1017	1242	6930601082366410	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6d361ab06e03725f
+1245	1460	6930601084521109	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+1464	4970	6930601100174254	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	371	6930603791962948	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/startup_ewarm.pbi	6962609c681f8655
+375	606	6930603794342224	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	381bfe04cfbe2607
+610	813	6930603796379209	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+817	4611	6930603812195031	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+3	350	6930605753188133	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+354	504	6930605754618793	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	79ecca41958aaf4c
+508	722	6930605757008508	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+3	235	6930605815506244	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/startup_ewarm.pbi	6962609c681f8655
+239	475	6930605817914140	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	381bfe04cfbe2607
+479	710	6930605820263997	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+713	4235	6930605837387726	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+142	374	6930606503910616	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+2	379	6930606503284089	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+265	438	6930606505109831	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part1.pbi	851f7c0a62e9d4f3
+442	637	6930606507098884	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+642	3914	6930606522596507	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	402	6930606596490924	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+405	578	6930606598274847	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+582	782	6930606600353942	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+2	3036	6930606761543486	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	419	6930614759450537	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.pbi	b27426f0c991611e
+423	696	6930614762345833	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+701	961	6930614764673485	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+966	4349	6930614783164718	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+3	399	6930616299808623	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.pbi	b27426f0c991611e
+403	656	6930616302326776	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+659	869	6930616304431835	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+873	4334	6930616320304036	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	434	6930616454632328	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+437	687	6930616457194998	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+690	938	6930616459695770	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+3	3409	6930616541078145	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+3	428	6930618808499810	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.pbi	b27426f0c991611e
+431	609	6930618810326516	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+614	833	6930618812528200	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+838	4244	6930618827674265	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+2	261	6930618952727693	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/timer0_Timer.pbi	22954343d82a61d0
+263	434	6930618954516834	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part2.pbi	a44c1341d7cd9528
+438	633	6930618956532195	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+637	3806	6930618971387957	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+4	706	6930630900976268	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.pbi	b27426f0c991611e
+711	1223	6930630906037732	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+1232	1561	6930630908041142	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+1583	7241	6930630931896252	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+5	473	6930631534251457	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Keypad.pbi	b27426f0c991611e
+481	909	6930631538638258	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project_part0.pbi	6c06c5b98c584334
+919	1377	6930631543371406	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbd	5ee683df0b89770f
+1385	8688	6930631579024828	D:/0.semester 7/2.embedded/project/seif/Debug/BrowseInfo/Project.pbw	ba3d9daa575eb221
+945	2728	6930641170000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/LCD.xcl	86ddbb04225ad3d9
+319	3003	6930641170000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/DIO.xcl	ab1bb8dd440fcc15
+5	3272	6930641170000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Keypad.xcl	dd258fecaaa71172
+1250	3309	6930641170000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/main.xcl	81f58d3c891c0011
+2736	4007	6930641180000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/startup_ewarm.xcl	2489d26bb67f4e8a
+3013	4435	6930641190000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Systic_timer.xcl	b5b9d5e4170d906a
+4019	5335	6930641198521076	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/DIO.pbi	7c3bedfc73db86ad
+3288	5354	6930641200000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/tasks.xcl	31bdcbf16dfaef4a
+3317	5852	6930641200000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/timer0_Timer.xcl	75396d0c0d4fa6b3
+4445	6103	6930641206734709	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/main.pbi	ac4311144d972275
+5340	6394	6930641208906279	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/LCD.pbi	41c2c978269d157f
+5364	6642	6930641210718690	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/startup_ewarm.pbi	56816c79eaf3b942
+5864	6856	6930641214485217	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/tasks.pbi	3d2f9819d6d6c398
+6112	6864	6930641217785484	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/timer0_Timer.pbi	bdd52a24a971f43
+6403	7226	6930641219429297	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Systic_timer.pbi	932cebb2a6974915
+6651	7469	6930641222088875	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Keypad.pbi	eaee5ec2cc04d34f
+6870	7755	6930641224427415	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part2.pbi	66b319eba65e9bb9
+7234	7765	6930641227178585	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part1.pbi	e38e1d2a9e773c41
+7478	7924	6930641230002309	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part0.pbi	61340a3ff45e6e3b
+7934	8389	6930641234742662	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbd	90b5b9c13a3cce7
+8398	15757	6930641272518518	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbw	e8aed4ea86cdabd3
+9610	19047	6930731361464839	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Keypad.pbi	eaee5ec2cc04d34f
+13669	24189	6930731413926890	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/main.pbi	ac4311144d972275
+4	27911	6930731410000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task2_timer0_Timer.xcl	c028d6c3ce5096a5
+4513	32252	6930731410000000	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task3_timer0_Timer.xcl	88cf0eab14108c26
+19054	36316	6930731464103208	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part0.pbi	61340a3ff45e6e3b
+24200	36326	6930731500911634	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part1.pbi	e38e1d2a9e773c41
+27934	36337	6930731548083751	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task2_timer0_Timer.pbi	95af98f99256e705
+32263	36616	6930731586734430	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task3_timer0_Timer.pbi	97b3fbd2aa4224f9
+36623	40508	6930731625698266	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part2.pbi	32d80a58d33adff3
+40516	44543	6930731666080722	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbd	90b5b9c13a3cce7
+44552	79366	6930732013898754	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbw	e8aed4ea86cdabd3
+5	9902	6932391402027223	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task3_timer0_Timer.pbi	97b3fbd2aa4224f9
+9920	12724	6932391430160105	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part2.pbi	32d80a58d33adff3
+12739	22303	6932391526134549	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbd	90b5b9c13a3cce7
+22312	63531	6932391937602186	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbw	e8aed4ea86cdabd3
+6	1059	6932403721509252	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task3_timer0_Timer.pbi	97b3fbd2aa4224f9
+1064	1629	6932403727457527	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part2.pbi	32d80a58d33adff3
+1635	2533	6932403736585494	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbd	90b5b9c13a3cce7
+2553	10798	6932403772974630	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbw	e8aed4ea86cdabd3
+4	2742	6932410487138214	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Task3_timer0_Timer.pbi	97b3fbd2aa4224f9
+2752	8010	6932410539720340	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project_part2.pbi	32d80a58d33adff3
+8019	10684	6932410566582139	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbd	90b5b9c13a3cce7
+10693	17575	6932410599549300	D:/0.semester 7/2.embedded/project/task 2/Debug/BrowseInfo/Project.pbw	e8aed4ea86cdabd3
+32	225	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/LCD.xcl	fd4c955210b77fa2
+135	234	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/main.xcl	faa9ecbaec9a7e32
+139	246	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/Keypad.xcl	ed86c368cbdbbfdf
+146	273	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/DIO.xcl	c50401631ce7707a
+230	328	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/Systic_timer.xcl	96f280203e3d065b
+239	363	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/startup_ewarm.xcl	2db7c27fa4b248cd
+251	373	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/tasks.xcl	6fa282a824f5e0d7
+335	437	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/Task2_timer0_Timer.xcl	cd62f9779682b4c6
+368	457	6935875850000000	D:/Downloads/project/Debug/BrowseInfo/Task3_timer0_Timer.xcl	cd087fe6b677f0d6
+278	464	6935875859925533	D:/Downloads/project/Debug/BrowseInfo/DIO.pbi	9a05c5b0662b2966
+442	555	6935875860865582	D:/Downloads/project/Debug/BrowseInfo/startup_ewarm.pbi	c021682ec116ff72
+378	566	6935875860975554	D:/Downloads/project/Debug/BrowseInfo/Keypad.pbi	c300de964aafb3b5
+466	572	6935875861035722	D:/Downloads/project/Debug/BrowseInfo/LCD.pbi	fdb3447a02971943
+568	662	6935875861935535	D:/Downloads/project/Debug/BrowseInfo/Systic_timer.pbi	dafb2e219d5a6320
+462	693	6935875862235550	D:/Downloads/project/Debug/BrowseInfo/Task2_timer0_Timer.pbi	540296d31d482892
+574	699	6935875862295543	D:/Downloads/project/Debug/BrowseInfo/Task3_timer0_Timer.pbi	4f84aa1d01fab30b
+557	709	6935875862405561	D:/Downloads/project/Debug/BrowseInfo/main.pbi	7e8fbe8a89a924c5
+712	763	6935875862965550	D:/Downloads/project/Debug/BrowseInfo/Project_part1.pbi	989bfd00796a4114
+665	768	6935875862985560	D:/Downloads/project/Debug/BrowseInfo/tasks.pbi	6c7b0aedc2e2d460
+695	776	6935875863095544	D:/Downloads/project/Debug/BrowseInfo/Project_part0.pbi	7ba855fcc8651ac
+770	829	6935875863615892	D:/Downloads/project/Debug/BrowseInfo/Project_part2.pbi	70288de08a678e1e
+833	907	6935875864395957	D:/Downloads/project/Debug/BrowseInfo/Project.pbd	b1d1997f868cdb2b
+911	1540	6935875870465998	D:/Downloads/project/Debug/BrowseInfo/Project.pbw	4c108243c48bc847
+1	209	6937879864119430	D:/Downloads/project/Debug/BrowseInfo/Task2_timer0_Timer.pbi	540296d31d482892
+212	468	6937879866721573	D:/Downloads/project/Debug/BrowseInfo/Project_part2.pbi	70288de08a678e1e
+473	540	6937879867441568	D:/Downloads/project/Debug/BrowseInfo/Project.pbd	b1d1997f868cdb2b
+544	2045	6937879882261339	D:/Downloads/project/Debug/BrowseInfo/Project.pbw	4c108243c48bc847
+1	196	6937881193046694	D:/Downloads/project/Debug/BrowseInfo/Task3_timer0_Timer.pbi	4f84aa1d01fab30b
+199	251	6937881193606665	D:/Downloads/project/Debug/BrowseInfo/Project_part2.pbi	70288de08a678e1e
+256	315	6937881194236680	D:/Downloads/project/Debug/BrowseInfo/Project.pbd	b1d1997f868cdb2b
+318	961	6937881200436662	D:/Downloads/project/Debug/BrowseInfo/Project.pbw	4c108243c48bc847
+0	73	6937882459711620	D:/Downloads/project/Debug/BrowseInfo/Task2_timer0_Timer.pbi	540296d31d482892
+77	135	6937882460341500	D:/Downloads/project/Debug/BrowseInfo/Project_part2.pbi	70288de08a678e1e
+140	202	6937882461003920	D:/Downloads/project/Debug/BrowseInfo/Project.pbd	b1d1997f868cdb2b
+207	812	6937882466829290	D:/Downloads/project/Debug/BrowseInfo/Project.pbw	4c108243c48bc847
+4	82	6937882518471606	D:/Downloads/project/Debug/BrowseInfo/Task3_timer0_Timer.pbi	4f84aa1d01fab30b
+86	152	6937882519181977	D:/Downloads/project/Debug/BrowseInfo/Project_part2.pbi	70288de08a678e1e
+1	203	6937882519691624	D:/Downloads/project/Debug/BrowseInfo/main.pbi	7e8fbe8a89a924c5
+207	360	6937882521269630	D:/Downloads/project/Debug/BrowseInfo/Project_part1.pbi	989bfd00796a4114
+364	420	6937882521860172	D:/Downloads/project/Debug/BrowseInfo/Project.pbd	b1d1997f868cdb2b
+425	1120	6937882528630052	D:/Downloads/project/Debug/BrowseInfo/Project.pbw	4c108243c48bc847

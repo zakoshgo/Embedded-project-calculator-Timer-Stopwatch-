@@ -1,0 +1,23 @@
+# ninja log v5
+667	1565	6932616082514367	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/Task2_timer0_Timer.o	c31921f8207e4b60
+853	1755	6930644299777478	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/startup_ewarm.o	ea52970ec913e916
+3	2089	6930644301156908	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/LCD.o	24eef57b09612116
+310	1532	6932616082045657	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/Keypad.o	aa0e13a5903b318f
+2	865	6932587458672724	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+1456	2890	6930644312744229	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/tasks.o	1e5059a2ecf86a62
+2367	2860	6930644314198863	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/DIO.o	26f2189228a90dcc
+1776	2831	6930644313678540	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/Systic_timer.o	b53ec3c18e37b63c
+530	791	6932610057400395	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
+899	1558	6932616082603522	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/Task3_timer0_Timer.o	133337492af715b
+6	658	6932616241777473	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+672	1257	6932616247680503	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
+7	539	6932617687910670	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+549	1121	6932617693690945	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
+5	548	6932618327577585	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+556	1040	6932618332500548	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
+5	639	6932618889920104	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+648	1153	6932618895091182	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
+7	995	6932620678357359	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+1006	1411	6932620681959126	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
+6	580	6932621617362384	D:/0.semester 7/2.embedded/project/task 2/Debug/Obj/main.o	faecf9e9577168ee
+592	934	6932621620479982	D:/0.semester 7/2.embedded/project/task 2/Debug/Exe/Project.out	73ed2714586dc191
