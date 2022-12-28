@@ -17,7 +17,6 @@
 #include "driverlib/systick.h"
 //#include "Systic_timer.h"
 
-#include "bitwise_operation.h"
 
 static uint32 minutes;
 static uint32 seconds;
