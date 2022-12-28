@@ -14,10 +14,7 @@
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/timer.h"
-#include "types.h"
-#include "tm4c123gh6pm.h"
 #include "driverlib/systick.h"
-#include "DIO.h"
 //#include "Systic_timer.h"
 
 #include "bitwise_operation.h"
