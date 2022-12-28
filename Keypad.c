@@ -28,6 +28,8 @@ void KeyPad_Init(void)
   //GPIO_PORTB_PDR_R|= 0x8;
   GPIO_PORTB_DEN_R|= 0x7F;*/
 }
+
+//keypad define for calculator 
 uint8 KeyPad_Read_task1(void)
 {
   uint8 table[4][4]={
@@ -53,6 +55,7 @@ uint8 KeyPad_Read_task1(void)
   }}
   return 'A';
 }
+
 uint8 KeyPad_Read_task3(void)
 {
   uint8 table[4][4]={
@@ -82,6 +85,8 @@ uint8 KeyPad_Read_task3(void)
 }
 
 //////////////////
+
+// keypad define for timer
 uint8 KeyPad_Read_task2(void)
 {
   uint8 table[4][4]={
@@ -90,7 +95,6 @@ uint8 KeyPad_Read_task2(void)
     {'7','8','9','='},
     {'=','0','B','='}
   };
-  
   uint32 port = 0;
   while(port == 0){
   
@@ -107,10 +111,9 @@ uint8 KeyPad_Read_task2(void)
   }
   return 'A';
   }
-  
 }
 ///////////////////
-
+// Function to concatinate digits
 uint32 concatenate(uint32 x, uint32 y)
 {
     uint32 shift;
@@ -119,6 +122,7 @@ uint32 concatenate(uint32 x, uint32 y)
     return shift;
 } 
 
+// checks if operation button is pressed 
 uint32 checkFlag(uint8 x){
   uint8 op[] = {'='};
     for(int i=0;i<1;i++){
@@ -129,10 +133,11 @@ uint32 checkFlag(uint8 x){
     return 1;
 }
 
+// function that checks the operator used for the equation
 uint32 checkFlag_task1(uint8 x, uint16 fflag){
     uint8 op[5]= {'+', '-', '/', 'x','='};
     
-    if(fflag == 1){
+    if(fflag == 1){ 
       for(int i=2;i<5;i++){
         if(x == op[i]){
             return 0;
@@ -158,11 +163,8 @@ uint32 getDigits_task2(){
   uint32 flag = 1;
   
   while(counter<2){
-    //printf("d\n");   
     x = KeyPad_Read_task2();
-    
     delay(0.3);
-    
     if(x != 'A'){ 
       if((counter2)%4 ==0){
         LCD_Cmd(0x01);
@@ -186,22 +188,19 @@ uint32 getDigits_task2(){
       }
       else{}
       flag = checkFlag(x);
-      
     counter++;
     if(counter == 2 && !flag){
-      
       break;
     }
     y = x - '0';
     digit = concatenate(digit,y);
-    //x = KeyPad_Read();
-    
-    //delay(0.5);
-    }else{}
+    }
+    else{}
   }
   return digit;
 }
 
+// function to get digits 
 int32 getDigits_task1(uint8_ptr op, uint16 firstflag){
   uint32 counter = 0;
   uint32 digit = 0;
@@ -231,14 +230,14 @@ int32 getDigits_task1(uint8_ptr op, uint16 firstflag){
       return 'A';
     }
   
-  if(x =='F'){
+  if(x =='F'){    // if f pressed reset lcd and go back to main choices 
     LCD_Cmd(0x01);
     return 'F';      
   }
   
   LCD_Write_Data(x);
   delay(0.3);
-  if(x == '-'){
+  if(x == '-'){ // first sign check (for signed numbers)
     sign = '-';
   }else if(x == '+'){
     
@@ -249,7 +248,7 @@ int32 getDigits_task1(uint8_ptr op, uint16 firstflag){
   }
   
   
-  while((counter<6) && (flag == 1)){ 
+  while((counter<6) && (flag == 1)){ // check the digit count (can take up to 5 digits)
     x = KeyPad_Read_task1();
     LCD_Write_Data(x);
     delay(0.3);
@@ -285,6 +284,9 @@ else return 0;
 
 }
 
+// function that read inputs from keypad and does the calculation according to 
+// op chosen 
+
 uint8 ReadInputs_task1(){
     
     uint8_ptr op;
@@ -312,6 +314,7 @@ uint8 ReadInputs_task1(){
     
     double64 result;
     
+    //switch cases for calculator operations  
     switch(e){
       case '+':
         result = x+y;
@@ -331,9 +334,9 @@ uint8 ReadInputs_task1(){
     } 
     
     uint8_ptr equ;
-    //uint8 buffer[50];
+    
     uint8 buffer2[50];
-    //sprintf(buffer, "%d %c %d %c ",x, e, y, '=');
+    
     sprintf(buffer2, "%f ",result);
     											
     //LCD_Write_String(buffer);
@@ -344,14 +347,10 @@ uint8 ReadInputs_task1(){
     return 'B';
 }
 
-
+// displays 00:00 as initial value in timer and stopwatch
 void display_on_LCD_initialValue(){
-uint8 buffer[50];
-sprintf(buffer, "00:00");
-    
-    
-    
-    
+    uint8 buffer[50];
+    sprintf(buffer, "00:00");
     LCD_Cmd(0x01);		
     LCD_Cmd(0x80);               //Force the cursor to beginning of 1st line
    										
