@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\\common\bin\cspybat" -f "D:\Downloads\project\settings\Project.Debug.general.xcl" --backend -f "D:\Downloads\project\settings\Project.Debug.driver.xcl" 
+"E:\programs\iar\common\bin\cspybat" -f "D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\settings\Project.Debug.general.xcl" --backend -f "D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\settings\Project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\\common\bin\cspybat" -f "D:\Downloads\project\settings\Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Downloads\project\settings\Project.Debug.driver.xcl" 
+"E:\programs\iar\common\bin\cspybat" -f "D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\settings\Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\settings\Project.Debug.driver.xcl" 
 
 @echo off 
 :end

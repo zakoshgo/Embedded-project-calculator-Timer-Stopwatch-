@@ -6,7 +6,7 @@
 
 "-p" 
 
-"D:\arm\CONFIG\debugger\TexasInstruments\TM4C123GH6PM.ddf" 
+"E:\programs\iar\arm\CONFIG\debugger\TexasInstruments\TM4C123GH6PM.ddf" 
 
 "--semihosting" 
 

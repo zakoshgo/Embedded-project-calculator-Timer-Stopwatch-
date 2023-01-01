@@ -1,12 +1,6 @@
-#include "types.h"
-#include "DIO.h"
-#include "tm4c123gh6pm.h"
-#include <stdio.h>
 #include "LCD.h"
 #include "Keypad.h"
-#include <time.h>
-#include <stdlib.h>
-#include "bitwise_operation.h"
+
 #include <stdint.h>
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
@@ -14,11 +8,9 @@
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/timer.h"
-#include "driverlib/systick.h"
 
-// timer_init task 2
 
-// function to initialize the GPTM timer
+
 void Timer_init()
 {
   DIO_init();
@@ -33,53 +25,58 @@ void Timer_init()
 }
 void Timer_start()
 {
-  uint32 minutes = getDigits_task2(); //get minutes from user through keypad
-  uint32 seconds = getDigits_task2();//get seconds from user through keypad
+  
+  uint32 minutes = getDigits_task2();
+  uint32 seconds = getDigits_task2();
   ///////////////////////////////////////////////////////////////////////
-  uint8 buffer[50]; 
-  sprintf(buffer, "%d : %d",minutes, seconds);
-  LCD_Cmd(0x01);		
-  LCD_Cmd(0x80);               // Force the cursor to beginning of 1st line											
-  LCD_Write_String(buffer);     // write the mins, secs (stored in buffer) values on the LCD
-  LCD_Cmd(0xC0); 
+   uint8 buffer[50]; 
+   sprintf(buffer, "%d : %d",minutes, seconds);
+    LCD_Cmd(0x01);		
+    LCD_Cmd(0x80);               //Force the cursor to beginning of 1st line
+    //delayMs(500);											
+    LCD_Write_String(buffer);
+    LCD_Cmd(0xC0);
+    //delayMs(500);  
     /////////////////////////////////////////////////////////////////////
-  while(get_op_task2() ==0); //stays in the loop when nothing is clicked
-  TimerEnable(TIMER0_BASE, TIMER_A);
-  while(minutes + seconds != 0)
-   { 
-     //if t seconds =0 decremnt the minutes , seconds =0
-     // else decrement seconds
-     while((TIMER0_RIS_R & 0x01) == 0); //timer for 1 second
-     setBit(TIMER0_ICR_R,0);
-     minutes = minutes-!(seconds);
-     if(seconds == 0)
-     {
-        seconds = 59;
-     }
-     else
-     {
+    while(get_op_task2() ==0);
+ // TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()*3);
+   TimerEnable(TIMER0_BASE, TIMER_A);
+   while(minutes + seconds != 0)
+    { 
+     
+      while((TIMER0_RIS_R & 0x01) == 0);
+      setBit(TIMER0_ICR_R,0);
+      minutes = minutes-!(seconds);
+      if(seconds == 0){
+      seconds = 59;
+      }
+      else{
       seconds -=1;
-     }
-     uint8 buffer[50]; 
-     sprintf(buffer, "%d : %d",minutes, seconds);
-     LCD_Cmd(0x01);		
-     LCD_Cmd(0x80);               //Force the cursor to beginning of 1st line									
-     LCD_Write_String(buffer);
-     LCD_Cmd(0xC0);
-     if(KeyPad_Read_task2()=='B')
-     {
+      }
+      uint8 buffer[50]; 
+      sprintf(buffer, "%d : %d",minutes, seconds);
+      LCD_Cmd(0x01);		
+      LCD_Cmd(0x80);               //Force the cursor to beginning of 1st line
+    //delayMs(500);											
+      LCD_Write_String(buffer);
+      LCD_Cmd(0xC0);
+     if(KeyPad_Read_task2()=='B'){
        return;
-     }
+      }
       
     }
-   // function for blinking the LED
    int counter = 8;
    while(counter)
-    {       
+    { 
+      
+      
       delay(0.25);
       setBit(GPIO_PORTF_DATA_R,2);
       delay(0.25);
       clearBit(GPIO_PORTF_DATA_R,2);
       counter--;
     }
+
+      
+
 }

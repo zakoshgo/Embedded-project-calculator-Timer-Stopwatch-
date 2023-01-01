@@ -1,6 +1,4 @@
 #include "DIO.h"
-#include "tm4c123gh6pm.h"
-#include <stdio.h>
 
 #define RS 0x01				 	
 #define RW 0x02         

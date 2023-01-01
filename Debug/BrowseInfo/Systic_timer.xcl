@@ -1,23 +1,23 @@
-"D:\Downloads\project\Systic_timer.c"
+"D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\Systic_timer.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\Downloads\project\Debug\BrowseInfo\Systic_timer.pbi.dep
+D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\BrowseInfo\Systic_timer.pbi.dep
 -o
-D:\Downloads\project\Debug\BrowseInfo\Systic_timer.pbi
+D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\BrowseInfo\Systic_timer.pbi
 -I
-D:\Downloads\project
+D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-
 -I
 C:\ti\TivaWare_C_Series-2.2.0.295
 -I
-D:\arm\inc\c\aarch32
+E:\programs\iar\arm\inc\c\aarch32
 -I
-D:\arm\inc
+E:\programs\iar\arm\inc
 -I
-D:\arm\inc\c
+E:\programs\iar\arm\inc\c
 -I
 C:\ti\TivaWare_C_Series-2.2.0.295
 -D__CHAR_BITS__=8
@@ -377,8 +377,8 @@ C:\ti\TivaWare_C_Series-2.2.0.295
 -Dewarm=1
 -DPART_TM4C123GH6PM=1
 -DTARGET_IS_TM4C123_RB1=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="D:\arm\inc\c\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="D:\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="E:\programs\iar\arm\inc\c\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="E:\\programs\\iar\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V9.30.1.335/W64 for ARM"
 -D_VA_DEFINED=
 -D_VA_LIST=struct __va_list

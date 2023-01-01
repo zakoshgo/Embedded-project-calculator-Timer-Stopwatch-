@@ -1,5 +1,9 @@
-D:\Downloads\project\Debug\BrowseInfo\startup_ewarm.pbi: \
-  D:\Downloads\project\startup_ewarm.c D:\arm\inc\c\stdint.h \
-  D:\arm\inc\c\ycheck.h D:\arm\inc\c\yvals.h \
-  D:\arm\inc\c\DLib_Defaults.h D:\arm\inc\c\DLib_Config_Normal.h \
-  D:\arm\inc\c\DLib_Product.h
+D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\BrowseInfo\startup_ewarm.pbi: \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\startup_ewarm.c \
+  E:\programs\iar\arm\inc\c\stdint.h E:\programs\iar\arm\inc\c\ycheck.h \
+  E:\programs\iar\arm\inc\c\yvals.h \
+  E:\programs\iar\arm\inc\c\DLib_Defaults.h \
+  E:\programs\iar\arm\inc\c\DLib_Config_Normal.h \
+  E:\programs\iar\arm\inc\c\DLib_Product.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_nvic.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_types.h

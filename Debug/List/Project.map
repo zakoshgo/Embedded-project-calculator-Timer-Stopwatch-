@@ -1,28 +1,39 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.30.1.335/W64 for ARM                  20/Dec/2022  19:56:02
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  01/Jan/2023  10:10:27
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
-#        D:\0.semester 7\2.embedded\project\task 2\Debug\Exe\Project.out
+#        D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Exe\Project.out
 #    Map file     =
-#        D:\0.semester 7\2.embedded\project\task 2\Debug\List\Project.map
+#        D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\List\Project.map
 #    Command line =
-#        -f "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Exe\Project.out.rsp" ("D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\DIO.o" "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\Keypad.o" "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\LCD.o" "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\main.o" "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\startup_ewarm.o" "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\Systic_timer.o" "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Obj\Task2_timer0_Timer.o" "D:\0.semester
-#        7\2.embedded\project\task 2\Debug\Obj\Task3_timer0_Timer.o"
-#        "D:\0.semester 7\2.embedded\project\task 2\Debug\Obj\tasks.o"
-#        --no_out_extension -o "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\Exe\Project.out" --redirect _Printf=_PrintfFullNoMb --redirect
-#        _Scanf=_ScanfFullNoMb --map "D:\0.semester 7\2.embedded\project\task
-#        2\Debug\List\Project.map" --config
+#        -f "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Exe\Project.out.rsp"
+#        ("D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\DIO.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\Keypad.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\LCD.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\main.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\startup_ewarm.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\Task2_timer0_Timer.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\Task3_timer0_Timer.o"
+#        "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj\tasks.o"
+#        --no_out_extension -o "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Exe\Project.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "D:\0.semester 7\2.embedded\project\last
+#        version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\List\Project.map"
+#        --config
 #        E:\programs\iar\arm/config/linker/TexasInstruments/TM4C123GH6.icf
 #        --semihosting
 #        C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a
@@ -36,9 +47,9 @@
 ***
 
 Warning[Lt009]: Inconsistent wchar_t size
-            systick.o(driverlib.a) and 4 other objects in driverlib.a have
+            sysctl.o(driverlib.a) and 3 other objects in driverlib.a have
                       wchar_t size 16 bits
-            DIO.o and 35 other objects, some of them in shb_l.a and 21 other
+            DIO.o and 34 other objects, some of them in shb_l.a and 21 other
                       libraries have wchar_t size 32 bits
 
 
@@ -185,7 +196,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-D:\0.semester 7\2.embedded\project\task 2\Debug\Obj: [1]
+D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj: [1]
     DIO.o                       234
     Keypad.o                  1'432       82        4
     LCD.o                       400
@@ -382,7 +393,7 @@ strchr                       0x1135         Code  Gb  strchr.o [5]
 strlen                       0x1195         Code  Gb  strlen.o [5]
 
 
-[1] = D:\0.semester 7\2.embedded\project\task 2\Debug\Obj
+[1] = D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Obj
 [2] = dl7M_tln.a
 [3] = driverlib.a
 [4] = m7M_tls.a

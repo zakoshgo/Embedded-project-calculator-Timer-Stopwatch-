@@ -1,12 +1,3 @@
-#include "types.h"
-#include "tm4c123gh6pm.h"
-#include "DIO.h"
-#include "bitwise_operation.h"
-#include <stdio.h>
-#include <time.h>
-#include "Keypad.h"
-#include "LCD.h"
-#include <stdlib.h>
 #include "Task3_timer0_Timer.h"
 #include "Task2_timer0_Timer.h"
 

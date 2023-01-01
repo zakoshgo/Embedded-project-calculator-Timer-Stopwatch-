@@ -1,12 +1,8 @@
-#include "types.h"
-#include "DIO.h"
-#include "tm4c123gh6pm.h"
+
 #include <stdio.h>
 #include "LCD.h"
 #include "Keypad.h"
-#include <time.h>
-#include <stdlib.h>
-#include "bitwise_operation.h"
+
 #include <stdint.h>
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
@@ -14,13 +10,11 @@
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/timer.h"
-#include "driverlib/systick.h"
-//#include "Systic_timer.h"
 
 
 static uint32 minutes;
 static uint32 seconds;
-//timer intilization task 3
+
 void Timer_init_task3()
 {
   DIO_init();
@@ -46,7 +40,7 @@ void Timer_start_task3(uint32 minutes,uint32 seconds )
    
    while(1)
     { 
-      
+      //printf("incide");
       while((TIMER0_RIS_R & 0x01) == 0);
       setBit(TIMER0_ICR_R,0);
       if(seconds==59){
@@ -77,26 +71,26 @@ uint8 stopWatchChoice(uint8 choice)
   if (choice == 'P'){// pause
   
     
-    while( op == 'A'){ // while nothing is clicked, do nothing and read from keypad
+    while( op == 'A'){
       op=KeyPad_Read_task3();
     }
     
     choice = op;
     }
     if (choice == 'R'){// reset
-    display_on_LCD_initialValue();// get the inital value of the stopwatch
+    display_on_LCD_initialValue();
     minutes = 0;
     seconds=0;
     }
-    if (choice == 'S') // stop watch start 
+    if (choice == 'S')
     {
       TimerEnable(TIMER0_BASE, TIMER_A);
       while( op == 'A')
       {
         
-        while((TIMER0_RIS_R & 0x01) == 0);//1 second flag
+        while((TIMER0_RIS_R & 0x01) == 0);
       setBit(TIMER0_ICR_R,0);
-      if(seconds==59){ // is second = 59 incremnt minutes , else increment seconds
+      if(seconds==59){
       minutes = minutes+1;
       seconds=0;
       }

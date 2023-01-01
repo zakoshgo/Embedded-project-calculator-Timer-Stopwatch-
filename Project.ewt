@@ -2873,12 +2873,6 @@
         <name>$PROJ_DIR$\startup_ewarm.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\Systic_timer.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\Systic_timer.h</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\Task2_timer0_Timer.c</name>
     </file>
     <file>
