@@ -1,8 +1,8 @@
 #ifndef KEY_H
   #define KEY_H
 
-#include "types.h"
 #include "DIO.h"
+
 void KeyPad_Init(void);
 uint8 KeyPad_Read_task3(void);
 uint8 KeyPad_Read_task2(void);

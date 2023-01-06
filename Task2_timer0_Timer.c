@@ -1,12 +1,6 @@
-#include "types.h"
-#include "DIO.h"
-#include "tm4c123gh6pm.h"
-#include <stdio.h>
 #include "LCD.h"
 #include "Keypad.h"
-#include <time.h>
-#include <stdlib.h>
-#include "bitwise_operation.h"
+
 #include <stdint.h>
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
@@ -14,14 +8,8 @@
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/timer.h"
-#include "types.h"
-#include "tm4c123gh6pm.h"
-#include "driverlib/systick.h"
-#include "DIO.h"
-//#include "Systic_timer.h"
 
-#include "bitwise_operation.h"
-// timer_init task 2
+
 
 void Timer_init()
 {
@@ -38,8 +26,8 @@ void Timer_init()
 void Timer_start()
 {
   
-  uint32 minutes = getDigits_task2(); //get minutes from user
-  uint32 seconds = getDigits_task2();//get seconds from user
+  uint32 minutes = getDigits_task2();
+  uint32 seconds = getDigits_task2();
   ///////////////////////////////////////////////////////////////////////
    uint8 buffer[50]; 
    sprintf(buffer, "%d : %d",minutes, seconds);
@@ -50,14 +38,13 @@ void Timer_start()
     LCD_Cmd(0xC0);
     //delayMs(500);  
     /////////////////////////////////////////////////////////////////////
-    while(get_op_task2() ==0); //nothing is clicked
+    while(get_op_task2() ==0);
  // TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()*3);
    TimerEnable(TIMER0_BASE, TIMER_A);
    while(minutes + seconds != 0)
     { 
-     //if t seconds =0 decremnt the minutes , seconds =0
-      // else decrement seconds
-      while((TIMER0_RIS_R & 0x01) == 0); //timer for 1 second
+     
+      while((TIMER0_RIS_R & 0x01) == 0);
       setBit(TIMER0_ICR_R,0);
       minutes = minutes-!(seconds);
       if(seconds == 0){
@@ -78,7 +65,6 @@ void Timer_start()
       }
       
     }
-   // function of the buzzer
    int counter = 8;
    while(counter)
     { 

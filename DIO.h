@@ -1,6 +1,8 @@
 #ifndef DIO_H
   #define DIO_H
 #include "types.h"
+#include "tm4c123gh6pm.h"
+#include "bitwise_operation.h"
 
 void delay(double number_of_seconds);
 void DIO_init(void);

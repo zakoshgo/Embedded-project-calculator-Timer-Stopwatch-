@@ -1,5 +1,7 @@
 #ifndef LCD_H
   #define LCD_H
+#include "DIO.h"
+
 #define clear_display     0x01
 #define returnHome        0x02
 #define moveCursorRight   0x06
@@ -15,7 +17,7 @@
 #define Function_8_bit    0x32
 #define Set5x7FontSize    0x20
 #define FirstRow          0x80
-#include "types.h"
+
 
 
 void LCD_init(void);

@@ -1,14 +1,14 @@
-"D:\arm\bin\armPROC.dll" 
+"E:\programs\iar\arm\bin\armPROC.dll" 
 
-"D:\arm\bin\armLMIFTDI.dll" 
+"E:\programs\iar\arm\bin\armLMIFTDI.dll" 
 
-"D:\Downloads\project\Debug\Exe\Project.out" 
+"D:\0.semester 7\2.embedded\project\last version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\Exe\Project.out" 
 
---plugin="D:\arm\bin\armbat.dll" 
+--plugin="E:\programs\iar\arm\bin\armbat.dll" 
 
---device_macro="D:\arm/config/debugger/TexasInstruments/TM4C123.dmac" 
+--device_macro="E:\programs\iar\arm/config/debugger/TexasInstruments/TM4C123.dmac" 
 
---flash_loader="D:\arm/config/flashloader/TexasInstruments/FlashTC4_H6_o.board" 
+--flash_loader="E:\programs\iar\arm/config/flashloader/TexasInstruments/FlashTC4_H6_o.board" 
 
 
 

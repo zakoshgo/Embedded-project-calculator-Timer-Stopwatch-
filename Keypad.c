@@ -1,5 +1,4 @@
 #include "DIO.h"
-#include "tm4c123gh6pm.h"
 #include <stdio.h>
 #include "LCD.h"
 

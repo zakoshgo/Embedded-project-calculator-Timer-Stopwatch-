@@ -1,7 +1,13 @@
-D:\Downloads\project\Debug\BrowseInfo\Keypad.pbi: \
-  D:\Downloads\project\Keypad.c D:\Downloads\project\DIO.h \
-  D:\Downloads\project\types.h D:\Downloads\project\tm4c123gh6pm.h \
-  D:\arm\inc\c\stdio.h D:\arm\inc\c\ycheck.h D:\arm\inc\c\yvals.h \
-  D:\arm\inc\c\DLib_Defaults.h D:\arm\inc\c\DLib_Config_Normal.h \
-  D:\arm\inc\c\DLib_Product.h D:\arm\inc\c\ysizet.h \
-  D:\Downloads\project\LCD.h
+D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\Debug\BrowseInfo\Keypad.pbi: \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\Keypad.c \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\DIO.h \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\types.h \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\tm4c123gh6pm.h \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\bitwise_operation.h \
+  E:\programs\iar\arm\inc\c\stdio.h E:\programs\iar\arm\inc\c\ycheck.h \
+  E:\programs\iar\arm\inc\c\yvals.h \
+  E:\programs\iar\arm\inc\c\DLib_Defaults.h \
+  E:\programs\iar\arm\inc\c\DLib_Config_Normal.h \
+  E:\programs\iar\arm\inc\c\DLib_Product.h \
+  E:\programs\iar\arm\inc\c\ysizet.h \
+  D:\0.semester\ 7\2.embedded\project\last\ version\project2\Embedded-project-calculator-Timer-Stopwatch-\LCD.h
